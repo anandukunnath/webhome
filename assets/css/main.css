@@ -125,15 +125,41 @@ body {
 
 /* BG */
 
-.f1
+#f1
 {
-  width: 130px;
-  height: 60px;
+  width: 120px;
+  height: 40px;
 }
 
-.part2
+#b
 {
-  
+  display: none;
+}
+
+#cb
+{
+position: relative;;
+background:    #15d798;
+border-radius: 1000px;
+width:         130px;
+height:        50px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 18px/50px "Open Sans", sans-serif;
+text-align:    center;
+}
+
+#eb
+{
+position: relative;;
+background:    #15d798;
+border-radius: 1000px;
+width:         130px;
+height:        50px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 18px/50px "Open Sans", sans-serif;
+text-align:    center;
 }
 
 #bg {

@@ -11,6 +11,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
 	</head>
 	<body class="is-preload">
@@ -21,14 +23,31 @@
 				<p>A simple tool for choosing a wise career and<br />
 				shortening the distance to your  <a href=#>Dream job</a>.</p>
 			</header>
+			</script>
+
 
 		<!-- <!-- Signup Form -->
 			<!-- <form id="signup-form" method="post" action="#"> -->
 				<!-- <input type="email" name="email" id="email" placeholder="Email Address" /> -->
-				<div class="b1">
-				<a href="#part2"><input type="submit" class="f1" value="Get Started"></a>
+			<div id="b1">
+				<input type="submit" id="f1" value="Get Started">
 			</div>
+
+			<div id="b">
+				<button id="cb">Confused ?</button>
+				<button id="eb">Explore</button>
+			</div>
+			<br>
 			<!-- </form> --> 
+			<script>
+$(document).ready(function(){
+  $("#f1").click(function(){
+    $("#b").slideToggle();
+    $("#b1").slideToggle();
+    
+  });
+});
+</script>
 
 		<!-- Footer -->
 			<footer id="footer">
